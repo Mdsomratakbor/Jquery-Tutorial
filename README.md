@@ -22,7 +22,7 @@ The jQuery library contains the following features:
 - jQuery has large development community and many plugins. Example autocomplete, textbox plugin
 - Excellent documentation
 # How to use jQuery i a web application?
-Download the jQuery file from [jQuery.com]:(https://jquery.com/) and reference it in your application just like any other Javascript file.
+Download the jQuery file from [jQuery.com](https://jquery.com/) and reference it in your application just like any other Javascript file.
 # What is difference between jQuery 1.x and 2.x?
 If you want to support IE6/7/8, then use jQuery 1.x where as if you don't have the need to support IE6/7/8 then use jQuery 2.x jQuery2.x is smaller in size than jQuery 1.x
 ## jQuery Syntax --- like this
@@ -37,8 +37,7 @@ If you want to support IE6/7/8, then use jQuery 1.x where as if you don't have t
 - $().ready(handler)(this is not recommended)
 - $(handler)
 
-***
- <div class="container">
+ `<div class="container">
       <script>
       $(document).ready(function(){
           $('#btn-1').click(function(){
@@ -47,8 +46,7 @@ If you want to support IE6/7/8, then use jQuery 1.x where as if you don't have t
       })
       </script>
         <button class="btn btn-info" id='btn-1'>Part-1</button>
-    </div>
-***
+    </div>`
 
 
 
