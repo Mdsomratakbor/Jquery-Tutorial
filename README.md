@@ -37,6 +37,18 @@ If you want to support IE6/7/8, then use jQuery 1.x where as if you don't have t
 - $().ready(handler)(this is not recommended)
 - $(handler)
 
+***
+ <div class="container">
+      <script>
+      $(document).ready(function(){
+          $('#btn-1').click(function(){
+            alert('jquery tutorial');
+          })
+      })
+      </script>
+        <button class="btn btn-info" id='btn-1'>Part-1</button>
+    </div>
+***
 
 
 
