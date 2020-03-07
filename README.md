@@ -43,10 +43,10 @@ If you want to support IE6/7/8, then use jQuery 1.x where as if you don't have t
 ### Points to remember :
 1. ready() function ensures that the DOM is fully loaded.
 2. $ is shortcut for jQuery.
-3. All Three of the following syntaxes are equivalent:\
-$(document).ready(hadler)
-$().ready(handler)(this is not recommended)
-$(handler)
+3. All Three of the following syntaxes are equivalent:
+- $(document).ready(hadler)
+- $().ready(handler)(this is not recommended)
+- $(handler)
 
 
 
