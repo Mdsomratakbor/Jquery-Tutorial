@@ -47,7 +47,15 @@ If you want to support IE6/7/8, then use jQuery 1.x where as if you don't have t
       </script>
         <button class="btn btn-info" id='btn-1'>Part-1</button>
     </div>`
+    
+    
+### What is $(document).ready(function()) in jquery and when to use it
+    
+`$(document)ready is a jQuery event. It fires as soon as the DOM is loaded and ready to be manipulated by script. this the earliest point in the page load process where the script can safety access elements in the page's html dom. This event is fired before all the images, css etc.. are fully loaded.`
 
+### What difference between $(document).ready(function()) and $(window).loade(function) event in jquery ?
+`$(window).load event fires when the DOM and all the content on the page(images, css etc) is fully loaded. Since the window load event waits for images, css etc to be fully loaded, this event fires after ready event. on the other hand $(document).ready(function()) event is fired before all the images, css etc-- are fully loaded`
+~Example :~
 
 
 
