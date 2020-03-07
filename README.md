@@ -14,3 +14,14 @@ The jQuery library contains the following features:
 - Effects and animations
 - AJAX
 - Utilities
+# Why should we use jQuery Or Advantages of using jQuery over raw JavaScript?
+- JQuery is cross-browser
+- jQuery is a lot more easy to use than raw javascript
+- JQuery is extensible
+- jQuery simplifies and has rich AJAX support
+- jQuery has large development community and many plugins. Example autocomplete, textbox plugin
+- Excellent documentation
+# How to use jQuery i a web application?
+Download the jQuery file from [jQuery.com]https://jquery.com/ and reference it in your application just like any other Javascript file.
+# What is difference between jQuery 1.x and 2.x?
+If you want to support IE6/7/8, then use jQuery 1.x where as if you don't have the need to support IE6/7/8 then use jQuery 2.x jQuery2.x is smaller in size than jQuery 1.x
