@@ -55,7 +55,8 @@ If you want to support IE6/7/8, then use jQuery 1.x where as if you don't have t
 
 ### What difference between $(document).ready(function()) and $(window).loade(function) event in jquery ?
 `$(window).load event fires when the DOM and all the content on the page(images, css etc) is fully loaded. Since the window load event waits for images, css etc to be fully loaded, this event fires after ready event. on the other hand $(document).ready(function()) event is fired before all the images, css etc-- are fully loaded`
-~Example :~
+### Example :-
+
 
 
 
