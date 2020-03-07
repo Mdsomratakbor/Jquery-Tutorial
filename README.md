@@ -29,6 +29,7 @@ If you want to support IE6/7/8, then use jQuery 1.x where as if you don't have t
 **Basic Syntax : $(selector).action()**
 ## The Document Ready Event
 ***
+--
  <div class="container">
       <script>
       $(document).ready(function(){
@@ -39,6 +40,7 @@ If you want to support IE6/7/8, then use jQuery 1.x where as if you don't have t
       </script>
         <button class="btn btn-info" id='btn-1'>Part-1</button>
     </div>
+    --
 ***
 ### Points to remember :
 1. ready() function ensures that the DOM is fully loaded.
