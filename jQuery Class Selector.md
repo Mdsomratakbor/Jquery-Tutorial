@@ -7,7 +7,9 @@
 $('.className')
 ## Example
 $('.small') // Selects all elements with class small
+</br>
 $('.small,.big') // Selects all elements with class small or big
+</br>
 $('div.small,.big') // Selects div elements with class small and any elements with class big
 
 
