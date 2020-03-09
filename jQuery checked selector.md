@@ -16,3 +16,23 @@ $('input[type="radio"]:checked')</br>
             });</br>
         });</br>
     </script></br>
+    
+   **Another Example**
+     <script></br>
+      $(document).ready(function(){</br>
+          $('#btnSubmit').click(function(){</br>
+              var result = $('input[type="checkbox"]:checked');</br>
+              if(result.length>0){</br>
+               var resultString = result.length + " checkbox Chcked </br>";</br>
+                 result.each(function () {</br>
+                     resultString  += $(this).val() + "</br>"</br>
+                      console.log($(this).val());</br>
+                  })</br>
+                  $('#divResult').html(resultString);</br>
+              }</br>
+              else{</br>
+                  $('#divResult').html("No Checkbox chcked");</br>
+              }</br>
+          })</br>
+      })</br>
+  </script></br>
