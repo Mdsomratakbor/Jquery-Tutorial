@@ -12,4 +12,5 @@
  or 
  $('[title:not("dive")]') // Select all attribute that have title attribute value not equal - divTitle </br>
  $('[title *="Title"]') // Select all attribute that have title attribute value containt - Title</br>
+ $('[title ~]')
  
