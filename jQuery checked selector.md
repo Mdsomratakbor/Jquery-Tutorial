@@ -36,8 +36,6 @@ $('input[type="radio"]:checked')</br>
           })</br>
       })</br>
   </script></br>
-  
-  
     <script></br>
       $(document).ready(function(){</br>
           $('#btnGetSelectedSkills').click(function(){</br>
