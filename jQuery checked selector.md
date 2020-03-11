@@ -36,6 +36,7 @@ $('input[type="radio"]:checked')</br>
           })</br>
       })</br>
   </script></br>
+  **Multiple checkbox group value show :**</br>
     <script></br>
       $(document).ready(function(){</br>
           $('#btnGetSelectedSkills').click(function(){</br>
