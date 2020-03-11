@@ -36,18 +36,19 @@ $('input[type="radio"]:checked')</br>
           })</br>
       })</br>
   </script></br>
-    <script>
-      $(document).ready(function(){
-          $('#btnGetSelectedSkills').click(function(){
-             CheckboxGroup("skills");
+  
+  
+    <script></br>
+      $(document).ready(function(){</br>
+          $('#btnGetSelectedSkills').click(function(){</br>
+             CheckboxGroup("skills");</br>
           })
-            $('#btnGetSelectedCities').click(function () {
-              CheckboxGroup("cities");
-          })
+            $('#btnGetSelectedCities').click(function () {</br>
+              CheckboxGroup("cities");</br>
+          })</br>
 
 
           function CheckboxGroup(value){
-              debugger
                var result = $('input[type="checkbox"][name="'+value+'"]:checked');
               if (result.length > 0) {
                   var resultString = result.length + " checkbox Chcked </br>";
