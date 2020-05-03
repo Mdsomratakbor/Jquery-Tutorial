@@ -29,7 +29,7 @@
     <br /><br />
     <div id="divResult"></div></br>
 </body></br>
-</html></br>`
+</html>`
 ## How to get all selected options from multi-select dropdown in jquery?
 `<!DOCTYPE html></br>
 <html lang="en"></br>
@@ -74,4 +74,4 @@
         })</br>
     </script></br>
 </body></br>
-</html></br>`
+</html>`
