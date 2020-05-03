@@ -1,4 +1,4 @@
- #jQuery Attribute Selector
+ ###jQuery Attribute Selector
  ### Syntax :
  $('[attribute]')</br>
  $('[attribute="value"]')
@@ -23,7 +23,7 @@ $('[title$="Heading"]') //Selects all elements that have title attribute value e
           }).css('border','1px solid black');</br>
 - This Example filter Method is used to all the elements that do not match the selected criteria and those matches will be returned. Parameters: criteria : It specifies a selector expression, a jQuery object or one or more elements to be returned from a group of selected elements.
 
-### How to write jQuery case-Insensitive attribute selector?
+
 
  
 
