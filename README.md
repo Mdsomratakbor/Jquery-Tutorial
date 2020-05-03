@@ -37,16 +37,16 @@ If you want to support IE6/7/8, then use jQuery 1.x where as if you don't have t
 - $().ready(handler)(this is not recommended)
 - $(handler)
 
- `<div class="container"><br>
-      <script><br>
-      $(document).ready(function(){<br>
-          $('#btn-1').click(function(){<br>
-            alert('jquery tutorial');<br>
-          })<br>
-      })</br>
-      </script><br>
-        <button class="btn btn-info" id='btn-1'>Part-1</button><br>
-    </div><br>`
+ <div class="container"></br>
+      <script></br>
+      $(document).ready(function(){</br>
+          $('#btn-1').click(function(){</br>
+            alert('jquery tutorial');</br>
+          })</br>
+      })<</br>
+      </script></br>
+        <button class="btn btn-info" id='btn-1'>Part-1</button></br>
+    </div></br>
     
     
 ### What is $(document).ready(function()) in jquery and when to use it
