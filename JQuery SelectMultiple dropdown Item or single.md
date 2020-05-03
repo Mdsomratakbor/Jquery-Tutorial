@@ -2,8 +2,10 @@
 
 ## What is jQuery selected selector?
 `The :selected selector selects option elements that are pre-selected. Note: This selector will not work on checkboxes or radio buttons. Use the :checked selector instead.`
+
 ## How to get selected option from single select dropdown in jquery?
-`<html></br>
+
+<html></br>
 <head></br>
     <title></title></br>
     <script src="jquery-1.11.2.js"></script></br>
@@ -29,9 +31,10 @@
     <br /><br />
     <div id="divResult"></div></br>
 </body></br>
-</html>`
+</html>
+
 ## How to get all selected options from multi-select dropdown in jquery?
-`<!DOCTYPE html></br>
+<!DOCTYPE html></br>
 <html lang="en"></br>
 <head></br>
     <meta charset="UTF-8"></br>
@@ -74,4 +77,4 @@
         })</br>
     </script></br>
 </body></br>
-</html>`
+</html>
