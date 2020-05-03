@@ -8,7 +8,7 @@ jQuery also simplifies a lot of the complicated things from JavaScript, like AJA
 
 The jQuery library contains the following features:
 
-- HTML/DOM manipulation
+- HTML/DOM manipulation 
 - CSS manipulation
 - HTML event methods
 - Effects and animations
