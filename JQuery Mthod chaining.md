@@ -12,3 +12,16 @@ This is possible because most of the jQuery methods return a jQuery object that 
             })</br>
         })</br>
     </script></br>
+### How method chaining works?
+`Method chaining will not work if a method in the chain does not return an object. In the example below, text() method returns a string that contains the text of all the list items and not an object. Hence the chaining does not work in this case.Here's an example.`
+<script></br>
+        $(document).ready(function(){</br>
+            $("#startChaining").click(function(){</br>
+                $("p").text().animate({width:"100%"}).animate({ fontSize:"46px"}).animate({</br> borderWidth:"30px"}).slideUp(1000).slideDown(1000).css("background","#ffff")</br>
+            })</br>
+            $("#resetChaining").click(function(){</br>
+                $("p").removeAttr("style");</br>
+            })</br>
+        })</br>
+    </script></br>
+    
