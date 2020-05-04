@@ -35,8 +35,8 @@
                 <li>Religion Book</li></br>
                 <li>Story Book</li></br>
                 <li>Play Book</li></br>
-</ul></br>
-`== first example ==`
+</ul>
+**== first example ==**
 <script></br>
    $(document).ready(function(){</br>
                 $("li").each(function(index, Element){  </br>            
@@ -44,7 +44,7 @@
                 }) </br>
              })</br>
 </script>
-`== seceond example ==` 
+**== seceond example ==**
 <script></br>
    $(document).ready(function(){</br>         
                     $("li").css('color','red');</br>
