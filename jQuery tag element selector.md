@@ -5,14 +5,14 @@
 `$('div a') // Select all anchor elements that are descendants of div elements`
 `$('div, span, a') // Selects all div, span and anchor elements`
 ### Alert the total count of td elements on the page
-`<script></br>
+<script></br>
 $(document).ready(function(){</br>
  alert($('td').length)</br>
 })</br>
-</script>`
+</script>
 ### Select all the tr elements on the page and changes their background color to red
-`<script></br>
+<script></br>
 $(document).ready(function(){</br>
 $('tc').css('background-color','red');</br>
 })</br>
-</script>`
+</script>
