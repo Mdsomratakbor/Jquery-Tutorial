@@ -7,5 +7,11 @@
 `The [(square bracket)] represents JSON array.`</br>
 **JSON Array of String :**
 `Let's see an example of JSON arrays storing string values.`
-**["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday"]**
+**["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday"]**</br>
+**JSON Array of Numbers :**</b>
+`Let's see an example of JSON arrays storing number values.`
+**[12, 34, 56, 43, 95]**</br>
+**JSON Array of Booleans :**
+`Let's see an example of JSON arrays storing boolean values.`
+
 
