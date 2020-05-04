@@ -43,7 +43,7 @@
                     $(this).css('color','red');</br>
                 }) </br>
              })</br>
-</script>
+</script></br>
 
 <script></br>
    $(document).ready(function(){</br>         
