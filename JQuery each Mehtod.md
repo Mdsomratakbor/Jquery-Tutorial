@@ -27,4 +27,20 @@
 </script>
 ### What is Implicit iteration in jQuery?
 ` The $('li') selector returns all list item elements. Notice that we are calling the css() jquery function on the jquery collection itself. In this case, css() method implicitly iterates over each element in the entire collection.`
+**Example :**
+<ul></br>
+                <li>Bangla Book</li></br>
+                <li>English Book</li></br>
+                <li>Math Book</li></br>
+                <li>Religion Book</li></br>
+                <li>Story Book</li></br>
+                <li>Play Book</li></br>
+</ul></br>
+<script></br>
+   $(document).ready(function(){</br>
+                $("li").each(function(index, Element){  </br>            
+                    $(this).css('color','red');</br>
+                }) </br>
+             })</br>
+</script>
     
