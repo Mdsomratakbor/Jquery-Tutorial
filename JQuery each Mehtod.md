@@ -14,4 +14,15 @@
             })</br>
         })</br>
     </script></br>
+  ### How to exit from each function in jQuery?
+  <script type="text/javascript"> </br>
+     $("#bookName").click(function(){ </br>
+                $("li").each(function(index, element){ </br>
+                    if($(element).text()=="Math Book"){ </br>
+                        return false; </br>
+                    } </br>
+                    alert("Text :"+$(element).text()); </br>
+                }) </br>
+            }) </br>
+</script>
     
