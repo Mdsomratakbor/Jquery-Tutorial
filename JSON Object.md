@@ -4,7 +4,7 @@
 ### What is JSON Array?
 `JSON array represents ordered list of values. JSON array can store multiple values. It can store string, number, boolean or object in JSON array.`
 `In JSON array, values must be separated by comma.`
-`The [(square bracket)] represents JSON array.`
+`The [(square bracket)] represents JSON array.`</br>
 **JSON Array of String :**
 `Let's see an example of JSON arrays storing string values.`
 **["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday"]**
