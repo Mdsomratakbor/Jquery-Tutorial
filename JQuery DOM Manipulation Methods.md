@@ -8,7 +8,9 @@
 ### hasClass() DOM Manipulation Method?
 `The hasClass() mehtod will return boolean, if the class is assigned to an elment then return true else return false`</br>
 **Syntax :**` hasClass("className") or hasClass("className1 className2")`</br>
-### css() Dom Manipulation Method?
+### toggleClass() Dom Manipulation Method?
+``
+
 
 
 **Exaple :**</br>     
@@ -22,6 +24,9 @@
                 if($("p").last().hasClass("add-class")==true){</br>
                       $("p").last().removeClass("add-class").removeAttr("style").addClass("remove-class").animate({ width: "100%" }).animate({ fontSize: "46px" }).animate({ borderWidth: "30px" }).slideUp(1000).slideDown(1000);</br>
                 }</br>    
+            })</br>
+            $("#toggleClass").click(function(){</br>
+                $("p").first().toggleClass("remove-class add-class").fadeIn(1000).fadeOut(1000).animate({ width: "100%" }).animate({ fontSize: "46px" }).animate({ borderWidth: "30px" }).slideUp(1000).slideDown(1000);</br>
             })</br>
         })</br>
     </script></br>
