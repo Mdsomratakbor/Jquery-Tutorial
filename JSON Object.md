@@ -9,9 +9,33 @@
 `Let's see an example of JSON arrays storing string values.`
 **["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday"]**</br>
 **JSON Array of Numbers :**</b>
-`Let's see an example of JSON arrays storing number values.`
+`Let's see an example of JSON arrays storing number values.`</br>
 **[12, 34, 56, 43, 95]**</br>
-**JSON Array of Booleans :**
-`Let's see an example of JSON arrays storing boolean values.`
+**JSON Array of Booleans :**</br>
+`Let's see an example of JSON arrays storing boolean values.`</br>
+**[true, true, false, false, true]**</br>
+**JSON Array of Objects**</br>
+   `employeeData: [
+            {
+                    'firstName':'Md Hasan',
+                    'LastName':'Khan',
+                    'Age':42,
+                    'Mail':'Hasan@gmail.com'
 
+            },
+            {
+                'firstName': 'Md Kalam',
+                'LastName': 'Khan',
+                'Age': 22,
+                'Mail': 'Kalam@gmail.com'
+            },
+            {
+                    'firstName': 'Md Karim',
+                    'LastName': 'Ullah',
+                    'Age': 32,
+                    'Mail': 'Karim@gmail.com'
+            }
+
+            ]
+`
 
