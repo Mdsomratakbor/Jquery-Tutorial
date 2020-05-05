@@ -48,4 +48,61 @@
 
 ### How to Covert JSON Object to JSON String?
 **Using JSON.stringify() method :**` The JSON.stringify() method in javascript allows us to take a JavaScript object or Array and create a JSON string out of it.`</br>
-**Syntax :**` JSON.stringify(value, replacer, space) `
+**Syntax :**` JSON.stringify(value, replacer, space) `</br>
+### How to Convert JSON String to JSON Object?
+**Using JSON.parse() method :**` The JSON.parse() method in Javascript Convert Json string to Json Object.`</br>
+**Syntax :**` JSON.stringify(value)`</br>
+**Example :**
+<script></br>
+        $(document).ready(function(){</br>
+            $("#dataShow").click(function(){</br>
+                var result = "";</br>
+                for(var i=0; i<employeeData.length; i++){</br>
+                    result +="First Name :"+employeeData[i].firstName+", Last Name :"+employeeData[i].LastName+", Age :"+employeeData[i].Age+", Email :"+employeeData[i].Mail+"</br>" </br>
+                }</br>
+                $("#empResult").html(result);</br>
+            })</br>
+            $("#dataHide").click(function(){</br>
+                $("#empResult").empty();</br>
+                $("#empResultJsonObject").empty();</br>
+            })</br>
+            var employeeData = [</br>
+            {</br>
+                    'firstName':'Md Hasan',</br>
+                    'LastName':'Khan',</br>
+                    'Age':42,</br>
+                    'Mail':'Hasan@gmail.com'</br>
+            },</br>
+            {</br>
+                'firstName': 'Md Kalam',</br>
+                'LastName': 'Khan',</br>
+                'Age': 22,</br>
+                'Mail': 'Kalam@gmail.com'</br>
+            },</br>
+            {</br>
+                    'firstName': 'Md Karim',</br>
+                    'LastName': 'Ullah',</br>
+                    'Age': 32,</br>
+                    'Mail': 'Karim@gmail.com'</br>
+            }</br>
+            ]</br>
+            $("#dataJsonString").click(function(){</br>
+                var result = JSON.stringify(employeeData)</br>
+                $("#empResult").html(result);</br>
+                if(result!= null && result != undefined){</br>
+                    $("#dataJsonObject").removeClass("disabled");</br>
+                    $("#dataJsonObject").click(function(){</br>
+                        var jsonObject = JSON.parse(result);</br>
+                        var data = "";</br>
+                        $.each(jsonObject, function(index, element){</br>
+                             data += "First Name :"+ element.firstName+"</br>"</br>
+                              data += "Last Name :"+ element.LastName+"</br>"</br>
+                              data += "Age :"+ element.Age+"</br>"</br>
+                              data += "Mail :"+ element.Mail</br>
+                        })</br>
+                        $("#empResultJsonObject").html(data);</br>
+                    })</br>                 
+                }</br>
+            })</br>
+        })</br>
+    </script></br>
