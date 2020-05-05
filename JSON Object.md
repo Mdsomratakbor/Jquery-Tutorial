@@ -15,7 +15,8 @@
 `Let's see an example of JSON arrays storing boolean values.`</br>
 **[true, true, false, false, true]**</br>
 **JSON Array of Objects**</br>
-   `employeeData: [
+`Let's see a simple JSON array example having 4 objects.`</br>
+   **employeeData: [
             {
                     'firstName':'Md Hasan',
                     'LastName':'Khan',
@@ -34,6 +35,6 @@
                     'Age': 32,
                     'Mail': 'Karim@gmail.com'
             }
-            ]
+            ]**
 `
 
