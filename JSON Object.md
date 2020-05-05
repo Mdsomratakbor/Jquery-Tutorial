@@ -35,6 +35,13 @@
                     'Age': 32,
                     'Mail': 'Karim@gmail.com'
             }
-            ]**
-`
+            ]**</br>
 
+**JSON Multidimensional Array**</br>
+**We can store array inside JSON array, it is known as array of arrays or multidimensional array.**</br>
+**[    
+ [ "a", "b", "c" ],   
+ [ "m", "n", "o" ],   
+ [ "x", "y", "z" ]   
+]  
+**
