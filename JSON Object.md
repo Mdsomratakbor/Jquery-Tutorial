@@ -21,7 +21,6 @@
                     'LastName':'Khan',
                     'Age':42,
                     'Mail':'Hasan@gmail.com'
-
             },
             {
                 'firstName': 'Md Kalam',
@@ -35,7 +34,6 @@
                     'Age': 32,
                     'Mail': 'Karim@gmail.com'
             }
-
             ]
 `
 
