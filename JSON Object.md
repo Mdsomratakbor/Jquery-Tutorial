@@ -44,3 +44,7 @@
  [ "m", "n", "o" ],   
  [ "x", "y", "z" ]   
 ]
+
+
+### How to Covert JSON Object to JSON String?
+**Using JSON.stringify() method :**` The JSON.stringify() method in javascript allows us to take a JavaScript object or Array and create a JSON string out of it.`
