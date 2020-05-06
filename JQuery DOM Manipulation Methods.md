@@ -10,6 +10,7 @@
 **Syntax :**` hasClass("className") or hasClass("className1 className2")`</br>
 ### toggleClass() Dom Manipulation Method?
 `The toggleClass() method toggles between adding and removing one or more class names from the selected elements. This method checks each element for the specified class names. The class names are added if missing, and removed if already set - This creates a toggle effect`
+**Syntax :**` toggleClass("className") or toggleClass("className1 className2")`</br>
 
 
 
