@@ -18,7 +18,7 @@
 `The .unwrap() method removes the element's parent and returns the unwrapped content. This is effectively the inverse of the .wrap() method. The matched elements (and their siblings, if any) replace their parents within the DOM structure.`</br>
 **Syntax :**` $(selector).unwrap()`</br>
 ### wrapAll() DOM Manipulation Method?
-`The .wrapAll() function can take any string or object that could be passed to the $() function to specify a DOM structure. This structure may be nested several levels deep, but should contain only one inmost element. The structure will be wrapped around all of the elements in the set of matched elements, as a single group.`
+`The .wrapAll() function can take any string or object that could be passed to the $() function to specify a DOM structure. This structure may be nested several levels deep, but should contain only one inmost element. The structure will be wrapped around all of the elements in the set of matched elements, as a single group.`</br>
 **Syntax :**` $(selector).wrapAll('<div class="className"></div>')`</br>
 ### wrapInner() DOM Manipulation Method?
 `The .wrapInner() function can take any string or object that could be passed to the $() factory function to specify a DOM structure. This structure may be nested several levels deep, but should contain only one inmost element. The structure will be wrapped around the content of each of the elements in the set of matched elements.`</br>
