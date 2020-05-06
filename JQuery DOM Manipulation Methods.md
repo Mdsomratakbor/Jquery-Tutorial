@@ -69,5 +69,28 @@
             })</br>
             $("#wrapInner").click(function () {</br>
                 $("p").wrapInner().wrap('<div class="loader"></div>').fadeIn(5000).fadeOut(1000);</br>
+            })</br>         
+            $("#append").click(function(){</br>
+                $("tr td").each(function(index, element){</br>
+                    if($(element).text()== "Bangladesh"){</br>
+                        $(element).append(" is beautiful country");</br>
+                    }          </br>         
+                })</br>
+            })</br>
+             $("#appendTo").click(function () {</br>
+                $("tr td").each(function (index, element) {</br>
+                    if ($(element).text() == "Bangladesh") {</br>
+                        $("<p>is beautiful country</p>").appendTo($(this));</br>
+                    }</br>
+                })</br>
+            })</br>
+            $("#prepend").click(function(){</br>
+               var data= $("#dataChange").text();</br>
+               $("#question").prepend(data);</br>
+            })</br>
+            $("#prependTo").click(function () {</br>
+                var data = $("#dataChange").text();</br>
+                $("#question").prepend(data);</br>
+                $("<span>"+ data +"</span>").prependTo($("#question"))</br>
             })</br>
     </script></br>
