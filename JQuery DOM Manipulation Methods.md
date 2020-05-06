@@ -38,7 +38,7 @@
 ### prependTo() DOM Method?</br>
 `A function that returns an HTML string, DOM element(s), text node(s), or jQuery object to insert at the beginning of each element in the set of matched elements. Receives the index position of the element in the set and the old HTML value of the element as arguments. Within the function, this refers to the current element in the set.`</br>
 **Syntax :**` $("<div></<div>").prependTo(target)`</br>
-## Difference between prepend and append?
+## Difference between prepend and append?</br>
 `prepend method, inserts the specified content to the beginning of each element in the set of matched elements, where as append method inserts the specified content to the end of each element in the set of matched elements.`</br>
 
 
