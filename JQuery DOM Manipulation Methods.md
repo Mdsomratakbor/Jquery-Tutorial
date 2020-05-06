@@ -16,6 +16,7 @@
 **Syntax :**` wrap('<div class="className"></div>')`</br>
 
 
+
 **Exaple :**</br>     
    <script></br>
         $(document).ready(function(){</br>
@@ -32,4 +33,16 @@
                 $("p").first().toggleClass("remove-class add-class").fadeIn(1000).fadeOut(1000).animate({ width: "100%" }).animate({ fontSize: "46px" }).animate({ borderWidth: "30px" }).slideUp(1000).slideDown(1000);</br>
             })</br>
         })</br>
+          $("#wrap").click(function(){</br>
+                $("#firstP").wrap('<div class="loader"></div>').fadeIn(1000).fadeOut(1000)</br>
+            })
+            $("#unwrap").click(function(){</br>
+                $("p").unwrap();</br>
+            })</br>
+            $("#warpAll").click(function () {</br>
+            $("p").wrapAll().wrap('<div class="loader"></div>').fadeIn(5000).fadeOut(1000);</br>
+            })</br>
+            $("#wrapInner").click(function () {</br>
+                $("p").wrapInner().wrap('<div class="loader"></div>').fadeIn(5000).fadeOut(1000);</br>
+            })</br>
     </script></br>
