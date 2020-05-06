@@ -9,9 +9,11 @@
 `The hasClass() mehtod will return boolean, if the class is assigned to an elment then return true else return false`</br>
 **Syntax :**` hasClass("className") or hasClass("className1 className2")`</br>
 ### toggleClass() Dom Manipulation Method?
-`The toggleClass() method toggles between adding and removing one or more class names from the selected elements. This method checks each element for the specified class names. The class names are added if missing, and removed if already set - This creates a toggle effect`
+`The toggleClass() method toggles between adding and removing one or more class names from the selected elements. This method checks each element for the specified class names. The class names are added if missing, and removed if already set - This creates a toggle effect`</br>
 **Syntax :**` toggleClass("className") or toggleClass("className1 className2")`</br>
-
+### wrap() Dom Manipulation Method?
+`A selector, element, HTML string, or jQuery object specifying the structure to wrap around the matched elements. When you pass a jQuery collection containing more than one element, or a selector matching more than one element, the first element will be used.`</br>
+**Syntax :**` wrap('<div class="className"></div>')`</br>
 
 
 **Exaple :**</br>     
