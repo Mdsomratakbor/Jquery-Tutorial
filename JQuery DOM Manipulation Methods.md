@@ -21,7 +21,7 @@
 `The .wrapAll() function can take any string or object that could be passed to the $() function to specify a DOM structure. This structure may be nested several levels deep, but should contain only one inmost element. The structure will be wrapped around all of the elements in the set of matched elements, as a single group.`
 **Syntax :**` $(selector).wrapAll('<div class="className"></div>')`</br>
 ### wrapInner() DOM Manipulation Method?
-`The .wrapInner() function can take any string or object that could be passed to the $() factory function to specify a DOM structure. This structure may be nested several levels deep, but should contain only one inmost element. The structure will be wrapped around the content of each of the elements in the set of matched elements..`
+`The .wrapInner() function can take any string or object that could be passed to the $() factory function to specify a DOM structure. This structure may be nested several levels deep, but should contain only one inmost element. The structure will be wrapped around the content of each of the elements in the set of matched elements.`</br>
 **Syntax :**` $(selector).wrapInner('<div class="className"></div>')`</br>
 
 **Exaple :**</br>     
