@@ -23,6 +23,9 @@
 ### wrapInner() DOM Manipulation Method?
 `The .wrapInner() function can take any string or object that could be passed to the $() factory function to specify a DOM structure. This structure may be nested several levels deep, but should contain only one inmost element. The structure will be wrapped around the content of each of the elements in the set of matched elements.`</br>
 **Syntax :**` $(selector).wrapInner('<div class="className"></div>')`</br>
+### append() DOM Manipulation Method?
+`A function that returns an HTML string, DOM element(s), text node(s), or jQuery object to insert at the end of each element in the set of matched elements. Receives the index position of the element in the set and the old HTML value of the element as arguments. Within the function, this refers to the current element in the set.`</br>
+**Syntax :**` $(selector).append("<div></<div>")`
 
 **Exaple :**</br>     
    <script></br>
