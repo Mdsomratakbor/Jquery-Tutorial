@@ -13,12 +13,16 @@
 **Syntax :**` toggleClass("className") or toggleClass("className1 className2")`</br>
 ### wrap() DOM Manipulation Method?
 `A selector, element, HTML string, or jQuery object specifying the structure to wrap around the matched elements. When you pass a jQuery collection containing more than one element, or a selector matching more than one element, the first element will be used.`</br>
-**Syntax :**` wrap('<div class="className"></div>')`</br>
-### unwrap() DOM Mnipulation Method?
+**Syntax :**` $(selector).wrap('<div class="className"></div>')`</br>
+### unwrap() DOM Mnipuulation Method?
 `The .unwrap() method removes the element's parent and returns the unwrapped content. This is effectively the inverse of the .wrap() method. The matched elements (and their siblings, if any) replace their parents within the DOM structure.`</br>
-**Syntax :**` unwrap()`</br>
-
-
+**Syntax :**` $(selector).unwrap()`</br>
+### wrapAll() DOM Manipulation Method?
+`The .wrapAll() function can take any string or object that could be passed to the $() function to specify a DOM structure. This structure may be nested several levels deep, but should contain only one inmost element. The structure will be wrapped around all of the elements in the set of matched elements, as a single group.`
+**Syntax :**` $(selector).wrapAll('<div class="className"></div>')`</br>
+### wrapInner() DOM Manipulation Method?
+`The .wrapInner() function can take any string or object that could be passed to the $() factory function to specify a DOM structure. This structure may be nested several levels deep, but should contain only one inmost element. The structure will be wrapped around the content of each of the elements in the set of matched elements..`
+**Syntax :**` $(selector).wrapInner('<div class="className"></div>')`</br>
 
 **Exaple :**</br>     
    <script></br>
