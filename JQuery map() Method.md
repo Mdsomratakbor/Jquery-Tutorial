@@ -72,3 +72,4 @@ $(document).ready(function () {</br>
 </span></td>
 </tr>
 </tbody></table>
+<span style="font-family: Arial, Helvetica, sans-serif;"><b>Example :</b> Notice that the callback arguments in the each method are the reverse of the callback arguments in the map function. Also notice that map returns a new array where as each method returns the original array. This proves the point that each method is an immutable iterator where as map is not.</span>
