@@ -44,3 +44,5 @@
             })</br>
                         })</br>
   </script></br>
+ **Here, declaration of $.each function:-**
+`Here, we have a javascript array so we are using $.each to iterate over this javascript array. So this function has the first parameter is object or array that we want to iterate over. So, let's pass that intArray so now this $.each function knows what it has to iterate over and the next parameter if the callback function which gets called for each iteration so this is very much similar to the callback function we have in each version i.e .each version it will take two parameters index & element. So, what is this index parameter represents this index parameter represents the index of the item that we are currently iterating over within this collection and the element parameter represents the element itself. So, lets every wants to print the index of the item and the value that is the list item value. let us create a result variable its initialize that empty string and within our jquery each function.`
