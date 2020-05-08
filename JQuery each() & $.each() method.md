@@ -14,8 +14,7 @@
                     <li>Hello UK</li>
                     <li>Hello India</li>
 </ul>
-**JQuery Code :**
-
+**JQuery Code :**</br>
 <script></br>
        $(document).ready(function(){</br>
     var result = '';</br>
