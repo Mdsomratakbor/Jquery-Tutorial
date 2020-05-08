@@ -72,4 +72,16 @@ $(document).ready(function () {</br>
 </span></td>
 </tr>
 </tbody></table>
-<span style="font-family: Arial, Helvetica, sans-serif;"><b>Example :</b> Notice that the callback arguments in the each method are the reverse of the callback arguments in the map function. Also notice that map returns a new array where as each method returns the original array. This proves the point that each method is an immutable iterator where as map is not.</span>
+<span style="font-family: Arial, Helvetica, sans-serif;"><b>Example :</b> Notice that the callback arguments in the each method are the reverse of the callback arguments in the map function. Also notice that map returns a new array where as each method returns the original array. This proves the point that each method is an immutable iterator where as map is not.</span></br
+ var intArray = [1,2,2,3,2,5,5,2,85,656,56,56,56,265,9,62,629,26,2,562,6]
+            $("#each").click(function(){
+                function functionA(index,element){
+                    return element*5;
+                }
+                function functionB(element, index){
+                    return element*5;
+                }
+                document.write($.each(intArray, functionA)+"</br>");
+                document.write($.map(intArray, functionB));
+                
+            })
