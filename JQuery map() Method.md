@@ -35,3 +35,40 @@ $(document).ready(function () {</br>
                  $("#result").html(data);</br>
             })</br>
 });</br>
+
+### What difference between $.each() and $.map() method in jquery?
+<table border="1" style="border-collapse: collapse;">
+<tbody>
+<tr>
+<td style="background-color: #e46c0a;"><span style="font-family: Arial, Helvetica, sans-serif;"><b>$.map
+</b></span></td>
+<td style="background-color: #e46c0a;"><span style="font-family: Arial, Helvetica, sans-serif;"><b>$.each
+</b></span></td>
+</tr>
+<tr>
+<td><span style="font-family: Arial, Helvetica, sans-serif;">map method can be used as an iterator.
+</span></td>
+<td><span style="font-family: Arial, Helvetica, sans-serif;">each method is an immutable iterator
+</span></td>
+</tr>
+<tr>
+<td><span style="font-family: Arial, Helvetica, sans-serif;">Returns a new array
+</span></td>
+<td><span style="font-family: Arial, Helvetica, sans-serif;">Returns the original array
+</span></td>
+</tr>
+<tr>
+<td><span style="font-family: Arial, Helvetica, sans-serif;">The order of callback arguments - element, index.</span><br>
+<span style="font-family: Arial, Helvetica, sans-serif;">$.map(elems, <span style="color: blue;">function </span>() { element, index }, arg)
+</span></td>
+<td><span style="font-family: Arial, Helvetica, sans-serif;">The order of callback arguments - index, element.</span><br>
+<span style="font-family: Arial, Helvetica, sans-serif;">$.each(elems, <span style="color: blue;">function </span>() { index, element }, arg)
+</span></td>
+</tr>
+<tr>
+<td><span style="font-family: Arial, Helvetica, sans-serif;">Does not have a way to terminate the iteration
+</span></td>
+<td><span style="font-family: Arial, Helvetica, sans-serif;">Return false to terminate the iteration
+</span></td>
+</tr>
+</tbody></table>
