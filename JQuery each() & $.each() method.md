@@ -14,5 +14,17 @@
                     <li>Hello UK</li>
                     <li>Hello India</li>
 </ul>
-
-
+**JQuery Code :**
+<div class="Box">
+<script>
+       $(document).ready(function(){
+    var result = '';
+            $('#each').click(function(){
+                $("li").each(function(index, element){
+                    result += "Index : "+index +", Text : "+$(this).text()+"</br>";
+                })
+                $("#result").html(result);
+            })
+            })
+  </script>
+</div>
