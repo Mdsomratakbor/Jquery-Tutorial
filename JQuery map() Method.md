@@ -24,3 +24,14 @@ var data =""</br>
                 $("#result").html(data);</br>
             })</br>
 });</br>
+
+**Using map() method**</br>
+$(document).ready(function () {</br>
+     var data = "";</br>
+            $("#each").click(function(){</br>
+               data= $("li").map(function(index, element){</br>
+                    return $(this).text();</br>
+                }).get().join(" | ")</br>
+                 $("#result").html(data);</br>
+            })</br>
+});</br>
