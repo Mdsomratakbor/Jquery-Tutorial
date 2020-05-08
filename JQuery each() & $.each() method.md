@@ -21,7 +21,7 @@
     var result = '';</br>
             $('#each').click(function(){</br>
                 $("li").each(function(index, element){</br>
-                    result += "Index : "+index +", Text : "+$(this).text()+"</br>";</br>
+                    result += "Index : "+index +", Text : "+$(this).text();</br>
                 })</br>
                 $("#result").html(result);</br>
             })</br>
