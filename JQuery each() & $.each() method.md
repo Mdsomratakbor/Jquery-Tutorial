@@ -15,16 +15,16 @@
                     <li>Hello India</li>
 </ul>
 **JQuery Code :**
-<div class="Box">
-<script>
-       $(document).ready(function(){
-    var result = '';
-            $('#each').click(function(){
-                $("li").each(function(index, element){
-                    result += "Index : "+index +", Text : "+$(this).text()+"</br>";
-                })
-                $("#result").html(result);
-            })
-            })
+
+<script></br>
+       $(document).ready(function(){</br>
+    var result = '';</br>
+            $('#each').click(function(){</br>
+                $("li").each(function(index, element){</br>
+                    result += "Index : "+index +", Text : "+$(this).text()+"</br>";</br>
+                })</br>
+                $("#result").html(result);</br>
+            })</br>
+            })</br>
   </script>
-</div>
+
