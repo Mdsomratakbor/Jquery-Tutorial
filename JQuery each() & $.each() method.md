@@ -30,3 +30,5 @@
 
 **Here, declaration of .each function:-**
 `Here, we have a unorder list & this unorder list contains a few list items. So, looks it a jQuery ready function lets use the selector $(li) this selector is going to return as a jQuery object collection that will contain all the list item. If we want to iterate over all these list items in that jQuery object collection we will use .each function this function got two parameters callback and arguments. This callback parameter represents a function that we want to execute for each item that we are iterating over. This function has two parameters index & element. So, what is this index parameter represents this index parameter represents the index of the item that we are currently iterating over within this collection and the element parameter represents the element itself. So, lets every wants to print the index of the item and the value that is the list item value. let's create a result variable its initialize that empty string and within our jquery each function.`
+
+**Let's look at an example if we using $.each **
