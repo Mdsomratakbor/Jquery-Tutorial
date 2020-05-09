@@ -1,5 +1,7 @@
 # JQuery change() Event 
-`The change event is sent to an element when its value changes. This event is limited to <input> elements, <textarea> boxes and <select> elements. For select boxes, checkboxes, and radio buttons, the event is fired immediately when the user makes a selection with the mouse, but for the other element types the event is deferred until the element loses focus.`
+`This method is a shortcut for .on( "change", handler ) in the first two variations, and .trigger( "change" ) in the third.`</br>
+`The change event is sent to an element when its value changes. This event is limited to <input> elements, <textarea> boxes and <select> elements. For select boxes, checkboxes, and radio buttons, the event is fired immediately when the user makes a selection with the mouse, but for the other element types the event is deferred until the element loses focus.`</br>
+
 <script></br>
         $(document).ready(function(){</br>
             var result= '';</br>
