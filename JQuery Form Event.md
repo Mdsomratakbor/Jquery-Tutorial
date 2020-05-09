@@ -12,6 +12,12 @@
       <li>The <code>focus</code> event is sent to an element when it gains focus. This event is implicitly applicable to a limited set of elements, such as  form elements (<code>&lt;input&gt;</code>, <code>&lt;select&gt;</code>, etc.) and links (<code>&lt;a href&gt;</code>). In recent browser versions, the event can be extended to include all element types by explicitly setting the element's <code>tabindex</code> property. An element can gain focus via keyboard commands, such as the Tab key, or by mouse clicks on the element.</li>
       <li>Elements with focus are usually highlighted in some way by the browser, for example with a dotted line surrounding the element. The focus is used to determine which element is the first to receive keyboard-related events.</li>
     </ul>
+ 
+ ### JQuery focusin() Event
+<ol> This method is a shortcut for .on( "focusin", handler ) in the first two variations, and .trigger( "focusin" ) in the third.</ol>
+
+<ol>The focusin event is sent to an element when it, or any element inside of it, gains focus. This is distinct from the focus event in that it supports detecting the focus event on parent elements (in other words, it supports event bubbling).
+This event will likely be used together with the focusout event.</ol>
     
 
 <script></br>
