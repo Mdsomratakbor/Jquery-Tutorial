@@ -29,3 +29,15 @@
           }</br>
         })</br>
     </script></br>
+    
+**Cross-browser solution :**` For the above code to work in all browsers including Internet Explorer 8 and earlier versions, modify getEventDetails() function as shown below. Notice that we are converting JavaScript event object to jQuery event object using $.event.fix()`
+
+function getEventDetails(event) {
+    var e = $.event.fix(event);
+    var eventDetails = "Event = " + e.type +
+                        "<br/> X = " + e.pageX +
+                        "<br/>Y = " + e.pageY +
+                        "<br/>Target Type = " + e.target.type +
+                        "<br/>Target Tag Name = " + e.target.tagName;=
+    $('#divResult').html(eventDetails);
+}
