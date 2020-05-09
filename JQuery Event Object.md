@@ -10,3 +10,5 @@
 5. The HTML tag name that raised the event
 
 <img alt="convert javascript event to jquery event" border="1" src="http://4.bp.blogspot.com/-ZcyUpyokPFg/VTvkUYcqMUI/AAAAAAAAaq8/59jueEbMZUU/s1600/convert%2Bjavascript%2Bevent%2Bto%2Bjquery%2Bevent.png">
+`Notice that in the example below, we are passing event object to getEventDetails() method. This object is the raw JavaScript event object. The type property gives us the event name that occured. pageX and pageY properties return the X and Y coordinates of the mouse pointer. Target property returns the HTML element that raised the event. Target, pageX and pageY properties are supported by all modern browsers and Internet Explorer 9 and above. The following code will not work in Internet Explorer 8 and earlier versions. In addition to click event, the following example returns mouseover and mouseout event data.
+`
