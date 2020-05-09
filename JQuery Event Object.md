@@ -19,11 +19,11 @@
               getEventDetails(event)</br>
           })</br>
           function getEventDetails(event){</br>
-            var data = 'Event : '+event.type +'</br>' +</br>
-                        'X : '+event.pageX+'</br>' +</br>
-                        'Y : '+event.pageY+'</br>' +</br>
-                        'Target type : '+event.target.type+'</br>' +</br>
-                        'Target Tag Name :'+event.target.tagName+'</br>'+
+            var data = 'Event : '+event.type  +</br>
+                        'X : '+event.pageX +</br>
+                        'Y : '+event.pageY +</br>
+                        'Target type : '+event.target.type +</br>
+                        'Target Tag Name :'+event.target.tagName+
                         ' Data : '+event.target.value</br>
                     $('#result').html(data);  </br>
           }</br>
