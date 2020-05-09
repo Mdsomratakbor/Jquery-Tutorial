@@ -14,11 +14,12 @@
     </ul>
  
  ### JQuery focusin() Event
+ <ul>
 <ol> This method is a shortcut for .on( "focusin", handler ) in the first two variations, and .trigger( "focusin" ) in the third.</ol>
 
 <ol>The focusin event is sent to an element when it, or any element inside of it, gains focus. This is distinct from the focus event in that it supports detecting the focus event on parent elements (in other words, it supports event bubbling).
-This event will likely be used together with the focusout event.</ol>
-    
+This event will likely be used together with the focusout event.</ol>   
+</ul>
 
 <script></br>
         $(document).ready(function(){</br>
