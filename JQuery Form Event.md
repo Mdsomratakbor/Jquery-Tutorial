@@ -6,6 +6,13 @@
 
 ### JQuery blur() Event
 `The blur event is sent to an element when it loses focus. Originally, this event was only applicable to form elements, such as <input>. In recent browsers, the domain of the event has been extended to include all element types. An element can lose focus via keyboard commands, such as the Tab key, or by mouse clicks elsewhere on the page.`
+### JQuery focus() Event
+<ul>
+      <li>This method is a shortcut for <code>.on( "focus", handler )</code> in the first and second variations, and <code>.trigger( "focus" )</code> in the third.</li>
+      <li>The <code>focus</code> event is sent to an element when it gains focus. This event is implicitly applicable to a limited set of elements, such as  form elements (<code>&lt;input&gt;</code>, <code>&lt;select&gt;</code>, etc.) and links (<code>&lt;a href&gt;</code>). In recent browser versions, the event can be extended to include all element types by explicitly setting the element's <code>tabindex</code> property. An element can gain focus via keyboard commands, such as the Tab key, or by mouse clicks on the element.</li>
+      <li>Elements with focus are usually highlighted in some way by the browser, for example with a dotted line surrounding the element. The focus is used to determine which element is the first to receive keyboard-related events.</li>
+    </ul>
+    
 
 <script></br>
         $(document).ready(function(){</br>
