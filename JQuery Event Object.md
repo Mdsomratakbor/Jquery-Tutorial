@@ -9,4 +9,4 @@
 4. The control that raised the event
 5. The HTML tag name that raised the event
 
-<img alt="convert javascript event to jquery event" border="1" src="//4.bp.blogspot.com/-ZcyUpyokPFg/VTvkUYcqMUI/AAAAAAAAaq8/59jueEbMZUU/s1600/convert%2Bjavascript%2Bevent%2Bto%2Bjquery%2Bevent.png">
+<img alt="convert javascript event to jquery event" border="1" src="http://4.bp.blogspot.com/-ZcyUpyokPFg/VTvkUYcqMUI/AAAAAAAAaq8/59jueEbMZUU/s1600/convert%2Bjavascript%2Bevent%2Bto%2Bjquery%2Bevent.png">
