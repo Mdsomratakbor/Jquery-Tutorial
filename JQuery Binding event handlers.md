@@ -1,1 +1,0 @@
-#JQuery Binding event handler
