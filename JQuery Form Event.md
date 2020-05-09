@@ -21,6 +21,13 @@
 This event will likely be used together with the focusout event.</li>   
 </ul>
 
+### JQuery focusout() Event
+`This method is a shortcut for .on( "focusout", handler ) when passed arguments, and .trigger( "focusout" ) when no arguments are passed.
+
+The focusout event is sent to an element when it, or any element inside of it, loses focus. This is distinct from the blur event in that it supports detecting the loss of focus on descendant elements (in other words, it supports event bubbling).
+
+This event will likely be used together with the focusin event.`
+
 <script></br>
         $(document).ready(function(){</br>
             var result= '';</br>
