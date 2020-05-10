@@ -11,3 +11,5 @@
 4. undelegate() stops event delegation
 
 <img alt="jQuery delegate function" border="1" src="http://1.bp.blogspot.com/-rg-Y_vExop0/VUPz998CvWI/AAAAAAAAa0U/BddiXhUAF7U/s1600/jQuery%2Bdelegate%2Bfunction.png">
+
+<span style="font-family: Arial, Helvetica, sans-serif;">If you are using <b>jQuery 1.7 or higher</b> version, jQuery recommends to use <b>on()</b> to perform event delegation instead of <b>delegate()</b>. The above example can be very easily rewritten using <b>on() </b>and <b>off() </b>functions, instead of <b>delegate() </b>and <b>undelegate() </b>functions as shown below.</span>
