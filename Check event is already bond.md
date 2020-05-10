@@ -19,3 +19,11 @@
             }</br>
         });</br>
     </script>
+
+**Please note that this only works if you have attached event handlers using jQuery. This will not work if you have attached event handlers using raw JavaScript or element attributes.**
+
+`Another way to prevent attaching event handlers multiple times is by using jQuery off() and on() methods. The off() method ensures that all existing click event handlers of the button are removed before again adding a new click event handler using on() method.`
+
+$('#btn').off('click').on('click', function () {</br>
+    alert('Button Clicked');</br>
+});</br>
