@@ -3,6 +3,9 @@
 ### What is event delegation?
 `Event delegation allows us to attach a single event listener, to a parent element, that will fire for all descendants matching a selector, whether those descendants exist now or are added in the future. Both on() and delegate() functions allow us to perform event delegation.`
 
+**Syntax : **`$( document ).delegate( selector, events, data, handler );  // jQuery 1.4.3+`</br>
+`$( document ).on( events, selector, data, handler ); `</br>
+
 **How does the following example work :** 
 
 1. When you click on a list item (li), the event gets bubbled up to its parent (ul) as the list item (li) does not have it's own click event handler 
