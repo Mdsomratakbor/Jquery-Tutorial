@@ -13,3 +13,29 @@
 <img alt="jQuery delegate function" border="1" src="http://1.bp.blogspot.com/-rg-Y_vExop0/VUPz998CvWI/AAAAAAAAa0U/BddiXhUAF7U/s1600/jQuery%2Bdelegate%2Bfunction.png">
 
 <span style="font-family: Arial, Helvetica, sans-serif;">If you are using <b>jQuery 1.7 or higher</b> version, jQuery recommends to use <b>on()</b> to perform event delegation instead of <b>delegate()</b>. The above example can be very easily rewritten using <b>on() </b>and <b>off() </b>functions, instead of <b>delegate() </b>and <b>undelegate() </b>functions as shown below.</span>
+
+
+ <script></br>
+        $(document).ready(function () {</br>
+           $("#btnClickMe").on("click",function(){      </br>   
+               var data = "<li>Hello UK</li>";</br>
+               $("ul").append(data);</br>
+           })</br>
+           $("ul").on("click","li",function(){</br>
+               $(this).css('cursor', 'pointer').fadeOut(500);</br>
+           })</br>
+             $("#btnUndelegate").on("click", function () {</br>
+                $("ul").off('click', 'li');</br>
+            })</br>
+           $("#btnClickMe").on("click", function () {</br>
+                var data = "<li>Hello UK</li>";</br>
+                $("ul").append(data);</br>
+            })</br>
+            $("ul").delegate("li", "click",  function () {</br>
+                $(this).css('cursor', 'pointer').fadeOut(500);</br>
+            })</br>
+            $("#btnUndelegate").on("click",function(){</br>
+                $("ul").undelegate('li', 'click');</br>
+            })          </br>
+        })</br>
+    </script></br>
