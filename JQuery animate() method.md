@@ -38,3 +38,7 @@
 </tbody></table>
 
 Animate function has 4 parameters. Only the first parameter (properties) is the required parameter. Rest 3 are optional.
+
+### What is jQuery easing?
+`Easing is a technique where the speed and/or direction of animation are changed while the animation is in progress. Easing can make the animation start off slow and gradually speed up, start up fast and gradually slow down, and a whole host of other effects. The difference between linear and swing easing is very subtle.`
+
