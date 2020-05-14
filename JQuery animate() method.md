@@ -74,3 +74,10 @@ Animate function has 4 parameters. Only the first parameter (properties) is the 
     
 <b style="font-family: Arial, Helvetica, sans-serif;">In the following example, several calls to animate() method are chained together. By default these calls are placed into a queue to be executed one after the other in series rather than executing all of them simultaneously in parallel.</b>
 
+ $('img').on('click',function(){</br>
+                $(this)</br>
+                .animate({'left':700})</br>
+                .animate({'top':300})</br>
+                .animate({'left':10})</br>
+                .animate({'top':10})</br>
+            })</br>
