@@ -4,3 +4,35 @@
 
 **Syntax of jquery animate function :**</br>
 `.animate( properties [, duration ] [, easing ] [, complete ] )`
+<table border="1" style="border-collapse: collapse;">
+<tbody>
+<tr>
+<td><span style="font-family: Arial, Helvetica, sans-serif;"><b>Parameter
+</b></span></td>
+<td><span style="font-family: Arial, Helvetica, sans-serif;"><b>Description
+</b></span></td>
+</tr>
+<tr>
+<td><span style="font-family: Arial, Helvetica, sans-serif;">properties
+</span></td>
+<td><span style="font-family: Arial, Helvetica, sans-serif;">An object of CSS properties and values
+</span></td>
+</tr>
+<tr>
+<td><span style="font-family: Arial, Helvetica, sans-serif;">duration
+</span></td>
+<td><span style="font-family: Arial, Helvetica, sans-serif;">The duration for animation in milliseconds. Default is 400.
+</span></td>
+</tr>
+<tr>
+<td><span style="font-family: Arial, Helvetica, sans-serif;">easing
+</span></td>
+<td><span style="font-family: Arial, Helvetica, sans-serif;">Easing function to use for the transition. Default is swing. You could also use linear.
+</span></td>
+</tr>
+<tr>
+<td><span style="font-family: Arial, Helvetica, sans-serif;">complete
+</span></td>
+<td><span style="font-family: Arial, Helvetica, sans-serif;">A function to call once the animation is complete
+</span></td></tr>
+</tbody></table>
