@@ -155,3 +155,13 @@ Each HTML element has its own queue. With the following code there will be 5 cal
                     .animate({ 'border-width': 10 }, 1500)</br>
                     .animate({ 'opacity': 1 }, 1500);</br>
             });</br>
+            
+**If you want the calls to animate() to be executed simultaneously in parallel, then set queue option to false. Modify the jQuery code as shown below.**
+
+$('#myDiv1')</br>
+    .animate({ 'width': 500 }, { duration: 1500, queue: false })</br>
+    .animate({ 'padding': 20 }, { duration: 1500, queue: false })</br>
+    .animate({ 'font-size': 50 }, { duration: 1500, queue: false })</br>
+    .animate({ 'border-width': 10 }, { duration: 1500, queue: false })</br>
+    .animate({ 'opacity': 1 }, { duration: 1500, queue: false });</br>
+
