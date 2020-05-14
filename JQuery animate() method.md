@@ -85,8 +85,8 @@ Animate function has 4 parameters. Only the first parameter (properties) is the 
 <b style="font-family: Arial, Helvetica, sans-serif;"><b>Please note:</b> By default, all HTML elements have a static position, and cannot be moved. To modify the position , set the CSS position property of the element to fixed, absolute or relative.</b>
 
 ### What is animation Queue?
-`When several calls to animate() method are chained together. By default these calls are placed into a queue to be executed one after the other in series rather than executing all of them simultaneously in parallel. The name of this queue is fx.
 
+`When several calls to animate() method are chained together. By default these calls are placed into a queue to be executed one after the other in series rather than executing all of them simultaneously in parallel. The name of this queue is fx.
 Each HTML element has its own queue. With the following code there will be 5 calls to animate method placed in the queue of each div element. This means both div elements (myDiv1 & myDiv2) may start to execute the first call to animate method more or less at the same time. However, from the given queue the queued methods are executed one after the other in series.`
 
 **Example :**
