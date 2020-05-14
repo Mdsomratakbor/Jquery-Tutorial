@@ -36,3 +36,5 @@
 <td><span style="font-family: Arial, Helvetica, sans-serif;">A function to call once the animation is complete
 </span></td></tr>
 </tbody></table>
+
+Animate function has 4 parameters. Only the first parameter (properties) is the required parameter. Rest 3 are optional.
