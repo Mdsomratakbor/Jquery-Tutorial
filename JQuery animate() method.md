@@ -106,4 +106,26 @@ Each HTML element has its own queue. With the following code there will be 5 cal
             });</br>
             
  `The following code finds the total number of method calls waiting in the queue. While the first call to animate method is being executed, the other calls are added to the queue and waiting to be executed one after the other in sequence.`
-
+ 
+ 
+ $('#animateQueue').click(function () {</br>
+                $('#myDiv1')</br>
+                    .animate({ 'width': 500 }, 1500)</br>
+                    .animate({ 'padding': 20 }, 1500)</br>
+                    .queue(function(){</br>
+                        console.log($(this).queue('fx').length);</br>
+                        $(this).dequeue();</br>
+                    })</br>
+                    .animate({ 'font-size': 50 }, 1500)</br>
+                    .animate({ 'border-width': 10 }, 1500)</br>
+                    .animate({ 'opacity': 1 }, 1500)</br>
+                     .queue(function () {</br>
+                        console.log($(this).queue('fx').length);</br>
+                    })</br>
+                $('#myDiv2')</br>
+                    .animate({ 'width': 500 }, 1500)</br>
+                    .animate({ 'padding': 20 }, 1500)</br>
+                    .animate({ 'font-size': 50 }, 1500)</br>
+                    .animate({ 'border-width': 10 }, 1500)</br>
+                    .animate({ 'opacity': 1 }, 1500);</br>
+            });</br>
