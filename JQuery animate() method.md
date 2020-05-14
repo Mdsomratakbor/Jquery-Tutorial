@@ -129,3 +129,29 @@ Each HTML element has its own queue. With the following code there will be 5 cal
                     .animate({ 'border-width': 10 }, 1500)</br>
                     .animate({ 'opacity': 1 }, 1500);</br>
             });</br>
+            
+### How to globally disable all animations?
+
+**Let's See this example :**</br>
+                $('#animateQueue').click(function () {</br>
+                    $.fx.off = $("#checkAnimation").is(":checked");</br>
+                $('#myDiv1')</br>
+                    .animate({ 'width': 500 }, 1500)</br>
+                    .animate({ 'padding': 20 }, 1500)</br>
+                    .queue(function(){</br>
+                        console.log($(this).queue('fx').length);</br>
+                        $(this).dequeue();</br>
+                    })</br>
+                    .animate({ 'font-size': 50 }, 1500)</br>
+                    .animate({ 'border-width': 10 }, 1500)</br>
+                    .animate({ 'opacity': 1 }, 1500)</br>
+                     .queue(function () {</br>
+                        console.log($(this).queue('fx').length);</br>
+                    })</br>
+                $('#myDiv2')</br>
+                    .animate({ 'width': 500 }, 1500)</br>
+                    .animate({ 'padding': 20 }, 1500)</br>
+                    .animate({ 'font-size': 50 }, 1500)</br>
+                    .animate({ 'border-width': 10 }, 1500)</br>
+                    .animate({ 'opacity': 1 }, 1500);</br>
+            });</br>
