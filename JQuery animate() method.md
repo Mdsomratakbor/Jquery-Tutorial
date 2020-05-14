@@ -42,7 +42,7 @@ Animate function has 4 parameters. Only the first parameter (properties) is the 
 ### What is jQuery easing?
 `Easing is a technique where the speed and/or direction of animation are changed while the animation is in progress. Easing can make the animation start off slow and gradually speed up, start up fast and gradually slow down, and a whole host of other effects. The difference between linear and swing easing is very subtle.`
 
-**The following example increases the height and width of the image to 400 pixels on mouseover. On mouseout the height and width are reduced to 100 pixels. **
+**The following example increases the height and width of the image to 400 pixels on mouseover. On mouseout the height and width are reduced to 100 pixels.**
 
 
 
