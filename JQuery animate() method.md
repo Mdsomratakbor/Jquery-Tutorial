@@ -89,3 +89,19 @@ Animate function has 4 parameters. Only the first parameter (properties) is the 
 
 Each HTML element has its own queue. With the following code there will be 5 calls to animate method placed in the queue of each div element. This means both div elements (myDiv1 & myDiv2) may start to execute the first call to animate method more or less at the same time. However, from the given queue the queued methods are executed one after the other in series.`
 
+**Example :**
+    $('#animateQueue').click(function () {</br>
+                $('#myDiv1')</br>
+                    .animate({ 'width': 500 }, 1500)</br>
+                    .animate({ 'padding': 20 }, 1500)</br>
+                    .animate({ 'font-size': 50 }, 1500)</br>
+                    .animate({ 'border-width': 10 }, 1500)</br>
+                    .animate({ 'opacity': 1 }, 1500);</br>
+                $('#myDiv2')</br>
+                    .animate({ 'width': 500 }, 1500)</br>
+                    .animate({ 'padding': 20 }, 1500)</br>
+                    .animate({ 'font-size': 50 }, 1500)</br>
+                    .animate({ 'border-width': 10 }, 1500)</br>
+                    .animate({ 'opacity': 1 }, 1500);</br>
+            });</br>
+
