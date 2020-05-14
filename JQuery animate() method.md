@@ -44,8 +44,11 @@ Animate function has 4 parameters. Only the first parameter (properties) is the 
 
 **The following example increases the height and width of the image to 400 pixels on mouseover. On mouseout the height and width are reduced to 100 pixels.**
 <script>
+        
         $(document).ready(function () {
+        
             $("#animate").on('click',()=>{
+            
                 $("p").animate({
                     height: '250px',
                     width: '300px',                   
