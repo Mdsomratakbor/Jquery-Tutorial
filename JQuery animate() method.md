@@ -81,3 +81,5 @@ Animate function has 4 parameters. Only the first parameter (properties) is the 
                 .animate({'left':10})</br>
                 .animate({'top':10})</br>
             })</br>
+            
+<b style="font-family: Arial, Helvetica, sans-serif;"><b>Please note:</b> By default, all HTML elements have a static position, and cannot be moved. To modify the position , set the CSS position property of the element to fixed, absolute or relative.</b>
