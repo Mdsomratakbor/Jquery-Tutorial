@@ -43,6 +43,33 @@ Animate function has 4 parameters. Only the first parameter (properties) is the 
 `Easing is a technique where the speed and/or direction of animation are changed while the animation is in progress. Easing can make the animation start off slow and gradually speed up, start up fast and gradually slow down, and a whole host of other effects. The difference between linear and swing easing is very subtle.`
 
 **The following example increases the height and width of the image to 400 pixels on mouseover. On mouseout the height and width are reduced to 100 pixels.**
-
+<script>
+        $(document).ready(function () {
+            $("#animate").on('click',()=>{
+                $("p").animate({
+                    height: '250px',
+                    width: '300px',                   
+                    fontSize:'20px'
+                },2000).animate({ backgroundColor: '#f5f5f5',},2000)
+            })
+            $('img').on({
+                mouseover:function(){
+                    $(this).animate({
+                        height:'500px',
+                        width :'500px'
+                    },3000,'linear',animateComplete)
+                },
+                mouseout:function(){
+                    $(this).animate({
+                        height: '200px',
+                        width: '200px'
+                    },3000)
+                }
+            });
+            function animateComplete(){
+                alert("animation complete")
+            }
+        })
+    </script>
 
 
