@@ -104,4 +104,6 @@ Each HTML element has its own queue. With the following code there will be 5 cal
                     .animate({ 'border-width': 10 }, 1500)</br>
                     .animate({ 'opacity': 1 }, 1500);</br>
             });</br>
+            
+ `The following code finds the total number of method calls waiting in the queue. While the first call to animate method is being executed, the other calls are added to the queue and waiting to be executed one after the other in sequence.`
 
