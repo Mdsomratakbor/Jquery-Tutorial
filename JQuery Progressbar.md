@@ -25,3 +25,23 @@
             })</br>
         })</br>
     </script></br>
+    
+### Second Code
+<script></br>
+        $(document).ready(function () {</br>
+            function animateProgressbar(percentage){</br>
+                $("#innerDiv").animate({</br>
+                    'width':(percentage*500)/100</br>
+                },</br>
+                {    duration:3000,</br>
+                    step:function(now, tween){</br>
+                         $("#innerDiv").text(Math.ceil((now/500)*100) + " %")</br>
+                    }</br>
+                }</br>
+                )            </br>
+            }</br>
+            $("#myButton").click(function(){</br>
+                animateProgressbar($("#ddlPercentages").val());</br>
+            })</br>
+        })</br>
+    </script></br>
