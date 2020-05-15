@@ -9,7 +9,7 @@
                 <div class="col-md-12">
                     <div class="col-md-4">
                         <label class="control-label">Select Percentage : </label>
-                        <select id="ddlPercentages" class="form-control">
+                        <select id="ddlPercentages">
                             <option value="10">10</option>
                             <option value="20">20</option>
                             <option value="30">30</option>
@@ -30,6 +30,6 @@
                 </div>
             </div>
             <div class="card-footer">
-                <button class="btn btn-sm btn-info" id="myButton">Start animation</button>
+                <button id="myButton">Start animation</button>
             </div>
     </div>
