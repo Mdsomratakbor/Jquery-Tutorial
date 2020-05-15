@@ -27,3 +27,33 @@
 
 **Syntax :**
 <span style="font-family: Arial, Helvetica, sans-serif;">load( url [, data ] [, complete ] )</span>
+<table border="1" style="border-collapse: collapse;">
+    <tbody>
+<tr style="background-color: #ffc000;">
+        <td><span style="font-family: Arial, Helvetica, sans-serif;"><b>Parameter
+        </b></span></td>
+        <td><span style="font-family: Arial, Helvetica, sans-serif;"><b>Description
+        </b></span></td>
+    </tr>
+<tr>
+        <td><span style="font-family: Arial, Helvetica, sans-serif;">url
+        </span></td>
+        <td><span style="font-family: Arial, Helvetica, sans-serif;">Required. URL to which the request is sent
+        </span></td>
+    </tr>
+<tr>
+        <td><span style="font-family: Arial, Helvetica, sans-serif;">data
+        </span></td>
+        <td><span style="font-family: Arial, Helvetica, sans-serif;">Optional. A JSON object or string that is sent to the server along with the request
+        </span></td>
+    </tr>
+<tr>
+        <td><span style="font-family: Arial, Helvetica, sans-serif;">complete
+        </span></td>
+        <td><span style="font-family: Arial, Helvetica, sans-serif;">A callback function that is called when the request completes
+        </span></td>
+    </tr>
+</tbody></table>
+</br>
+`The following example loads HTML data from the server. When a text box receives focus, the help text&nbsp;associated&nbsp;with that&nbsp;`</br>
+`When the focus is lost the help text disappears.`
