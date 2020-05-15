@@ -24,3 +24,6 @@
 <li>Behind-the-scenes data fetches using XMLHttpRequest objects in the browser.</li>
 <li>JavaScript to make everything happen.</li>
 </ul>
+
+**Syntax :**
+<span style="font-family: Arial, Helvetica, sans-serif;">load( url [, data ] [, complete ] )</span>
