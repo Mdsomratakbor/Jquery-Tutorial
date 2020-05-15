@@ -54,6 +54,5 @@
         </span></td>
     </tr>
 </tbody></table>
-</br>
 `The following example loads HTML data from the server. When a text box receives focus, the help text&nbsp;associated&nbsp;with that&nbsp;`</br>
 `When the focus is lost the help text disappears.`
