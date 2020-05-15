@@ -15,3 +15,12 @@
 ### Rich Internet Application Technology
 
 <p>AJAX is the most viable Rich Internet Application (RIA) technology so far. It is getting tremendous industry momentum and several tool kit and frameworks are emerging. But at the same time, AJAX has browser incompatibility and it is supported by JavaScript, which is hard to maintain and debug.</p>
+
+### AJAX is Based on Open Standards
+**AJAX is based on the following open standards −**
+<ul class="list">
+<li>Browser-based presentation using HTML and Cascading Style Sheets (CSS).</li>
+<li>Data is stored in XML format and fetched from the server.</li>
+<li>Behind-the-scenes data fetches using XMLHttpRequest objects in the browser.</li>
+<li>JavaScript to make everything happen.</li>
+</ul>
