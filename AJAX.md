@@ -57,3 +57,5 @@
 
 
 `The following example loads HTML data from the server. When a text box receives focus, the help text&nbsp;associated&nbsp;with that&nbsp; When the focus is lost the help text disappears.`
+
+<img alt="jquery ajax load" border="1" src="http://1.bp.blogspot.com/-7XakgIsaH3M/VWdtB_gCQKI/AAAAAAAAbT4/N8S8uec8Ito/s1600/jquery%2Bajax%2Bload.png">
