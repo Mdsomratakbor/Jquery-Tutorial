@@ -11,3 +11,7 @@
 <li><p>Intuitive and natural user interaction. Clicking is not required, mouse movement is a sufficient event trigger.</p></li>
 <li><p>Data-driven as opposed to page-driven.</p></li>
 </ul>
+
+### Rich Internet Application Technology
+
+<p>AJAX is the most viable Rich Internet Application (RIA) technology so far. It is getting tremendous industry momentum and several tool kit and frameworks are emerging. But at the same time, AJAX has browser incompatibility and it is supported by JavaScript, which is hard to maintain and debug.</p>
