@@ -1,2 +1,3 @@
 # jQuery.ajax()
 
+### Syntax:
