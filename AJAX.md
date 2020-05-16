@@ -25,6 +25,9 @@
 <li>JavaScript to make everything happen.</li>
 </ul>
 
+### How to AJAX work?
+<img src="https://www.w3schools.com/xml/ajax.gif"/>
+
 **Syntax :**
 <span style="font-family: Arial, Helvetica, sans-serif;">load( url [, data ] [, complete ] )</span>
 <table border="1" style="border-collapse: collapse;">
