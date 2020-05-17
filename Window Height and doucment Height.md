@@ -21,3 +21,10 @@
 </b></span></td>
 <td><span style="font-family: Arial, Helvetica, sans-serif;">Returns the current vertical position of the scroll bar</span></td></tr>
 </tbody></table>
+
+### How to detect if the user has scrolled to the bottom of the page?
+`Here is the formula to detect if the user has scrolled to the bottom of the page`
+
+**if (verticalScrollBarPosition == $(document).height() - $(window).height()) {
+    floatingDiv.html('Reached the bottom of the page');
+}**
