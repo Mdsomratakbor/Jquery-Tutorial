@@ -28,3 +28,8 @@
 **if (verticalScrollBarPosition == $(document).height() - $(window).height()) {
     floatingDiv.html('Reached the bottom of the page');
 }**
+
+### Why window height and document height are the same in Google chrome
+
+Without DOCTYPE tag Chrome reports the same value for both window height and document height. Include the following DOCTYPE declaration
+<!DOCTYPE html>
